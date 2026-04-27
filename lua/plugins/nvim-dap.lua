@@ -48,14 +48,14 @@ return {
 
         {
             "<leader>d<C-o>",
-            function() require('dap').down() end,
-            desc = "Go Down One Stack Frame",
+            function() require('dap').up() end,
+            desc = "Go Up One Stack Frame",
         },
 
         {
             "<leader>d<C-i>",
-            function() require('dap').up() end,
-            desc = "Go Up One Stack Frame",
+            function() require('dap').down() end,
+            desc = "Go Down One Stack Frame",
         },
 
     },
