@@ -47,6 +47,12 @@ return {
         },
 
         {
+            "<leader>dT",
+            function() require('dap').terminate() end,
+            desc = "Terminate Debug Session",
+        },
+
+        {
             "<leader>d<C-o>",
             function() require('dap').up() end,
             desc = "Go Up One Stack Frame",
